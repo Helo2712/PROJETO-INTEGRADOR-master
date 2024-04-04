@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-QGfiJTt6qh1tKRC16oWwCGSrXbI/MLZOPuG55tyBI8h8sIg8vN8+/geM57oIFcxlGmw7eSE7Qf4i6gi5ogV9DQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--COLOCAR O ICON, COM A FOTO DO SYSALE-->
+    <link rel="shortcut icon" href="img/favicon-16x16_outro.png" type="image/x-icon" />
+    <title>Fazer sistema</title>
+
+    <style>
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            margin-top: 25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .form-control:focus {
+            border-color: #80bdff;
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .custom-file-label {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #8ae3f3;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #8eb3db;
+        }
+
+        body{
+            background-color: #f8f9fa;
+        }
+        .form-container{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-top: 50px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+        .navbar {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">SY SALE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="carregamento1.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Opções
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="carregamento4.html">Sistema</a></li>
+                            <li><a class="dropdown-item" href="carreagamento3.html">Relatar problemas</a></li>
+                            <li><a class="dropdown-item" href="carregamento5.html">Faça aqui seu sistema </a></li>
+                            <li><a class="dropdown-item" href="carregamento6.html">Acessebilidade</a></li>
+                            <li><a class="dropdown-item" href="carregamento8.html">Banco de dados</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">(19)3445-8768</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="form-container">
+            <form action="#" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label class="form-label">1 - Sobre o que seria seu site/mobile? para qual área ele será destinado?</label>
+                    <textarea class="form-control" name="pergunta1" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">2 - Quais as principais características necessárias para atender suas necessidades?</label>
+                    <textarea class="form-control" name="pergunta2" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">3 - Há algo de especial ou inovador que gostaria de implementar no site/mobile?</label>
+                    <textarea class="form-control" name="pergunta3" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">4 - Quais as principais dificuldades encontradas para seu negócio? Há algum concorrente do seu projeto? Se sim, quem seria?
+                    <textarea class="form-control" name="pergunta3" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">5 - Quais os serviços necessários ? Cite o que constará nele : atributos, detalhes, etc</label>
+                    <textarea class="form-control" name="pergunta3" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">7 - Há algum folder ou apresentação com mais detalhes?</label>
+                    <div class="form-group">
+                        <div class="custom-file">
+                            <input type="file" class="file-input" id="customFile" name="file">
+                            <label class="custom-file-label" for="customFile">Escolher arquivo</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">8 - Quais os principais objetivos do site/mobile? Cadastros, consultas, informativo, etc
+                    </label>
+                    <textarea class="form-control" name="pergunta3" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">9 - Há algum elemento que precisa ser verificado, isto é, que não possa aparecer em nenhum conteúdo?
+                    </label>
+                    <div class="form-group">
+                        <div class="custom-file">
+                            <input type="file" class="file-input" id="customFile" name="file">
+                            <label class="custom-file-label" for="customFile">
+                                <i class="fas fa-file"></i> Escolher arquivo
+                            </label>
+                             
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">10 - Há algum exemplo de como queira que fique seu sistema?
+                    </label>
+                    <div class="form-group">
+                        <div class="custom-file">
+                            <input type="file" class="file-input" id="customFile" name="file">
+                            <label class="custom-file-label" for="customFile">Escolher arquivo</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">11 - Gostaria de integrar redes sociais ao site? Se sim , por favor,indique-os abaixo. 
+                    </label>
+                    <textarea class="form-control" name="pergunta3" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">12 - Há um slogan da empresa? Se sim insira-o abaixo
+                    </label>
+                    <div class="form-group">
+                        <div class="custom-file">
+                            <input type="file" class="file-input" id="customFile" name="file">
+                            <label class="custom-file-label" for="customFile">Escolher arquivo</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">13 - Indique onde seu slogan ficará melhor posicionada no site/mobile?
+                    </label>
+                    <textarea class="form-control" name="pergunta3" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">14 - Há alguma ideia de paletas de cores para estilizar o sistema
+
+                    </label>
+                    <div class="form-group">
+                        <div class="custom-file">
+                            <input type="file" class="file-input" id="customFile" name="file">
+                            <label class="custom-file-label" for="customFile">Escolher arquivo</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">16- Quais são os diferenciais? Existe alguma missão, valor ou visão que queiram que seja mantido?
+
+                    </label>
+                    <textarea class="form-control" name="pergunta3" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">17- Qual o seu público alvo? Qual o tom de comunicação desejado: divertido, sério, profissional, técnico.
+
+                    </label>
+                    <textarea class="form-control" name="pergunta3" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">18-  Há alguma especificação para o design? Algo mais confortável, minimalista, etc.
+                    </label>
+                    <textarea class="form-control" name="pergunta3" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">19- Alguma nota que queira adicionar para melhor compreensão do que deseja?
+                    </label>
+                    <textarea class="form-control" name="pergunta3" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">20- Há alguma imagem, vídeo que queira que apareça durante a navegação do site/mobile?
+
+                    </label>
+                    <div class="form-group">
+                        <div class="custom-file">
+                            <input type="file" class="file-input" id="customFile" name="file">
+                            <label class="custom-file-label" for="customFile">Escolher arquivo</label>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
